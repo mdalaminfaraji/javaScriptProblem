@@ -1,4 +1,6 @@
-function generateRandomPassword(length) {
+//Task 6: Create a program that generates a random password of a specified length. The password should include a mix of uppercase letters, lowercase letters, numbers, and special characters.
+
+function GeneratePassword(length) {
     const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
     const numbers = "0123456789";
@@ -17,6 +19,6 @@ function generateRandomPassword(length) {
   }
   
   const passwordLength = 8;
-  const randomPassword = generateRandomPassword(passwordLength);
+  const randomPassword = GeneratePassword(passwordLength);
   console.log(randomPassword);
   
